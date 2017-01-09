@@ -41,3 +41,7 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
     print("Almost there...")
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
+#Excersise 5(String Formatting)
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%s."
+print(format_string % data)
